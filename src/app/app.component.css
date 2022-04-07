@@ -1,0 +1,12 @@
+.nav-link.active{
+    color: blue !important;
+    font-weight: bold;
+    font-style: oblique;
+}
+.nav-link{
+    color: blue !important;
+    font-weight: bold;
+    font-style: oblique;
+
+}
+
