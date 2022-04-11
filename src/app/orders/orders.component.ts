@@ -19,9 +19,5 @@ export class OrdersComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  fonk(){
-    console.log("test");
-  }
-
 }
  

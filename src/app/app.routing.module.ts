@@ -4,14 +4,14 @@ import { ProductsComponent } from "./products/products.component";
 import { OrdersComponent } from "./orders/orders.component"
 
 const routes: Routes = [
-
-    { path: "products", component: ProductsComponent },
+    
     { path: "", redirectTo:  'products', pathMatch: 'full' },
+    { path: "products", component: ProductsComponent },
     { path: "orders", component: OrdersComponent },
 ];
 
 
-@NgModule({
+@NgModule({ 
     imports: [RouterModule.forRoot(routes)],
     exports: [RouterModule]
 })

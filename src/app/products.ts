@@ -10,7 +10,7 @@ export const  products = [
     {
         id : 2,
         name : 'Dumbledor Asası',
-        photoPath : 'assets/images/Dumbledrasası.jpg',
+        photoPath : 'assets/images/Dumbledoreasası.jpg',
         price : 12,
         unit: 'adet',
         quantity: 0 

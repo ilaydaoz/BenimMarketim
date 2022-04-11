@@ -9,9 +9,9 @@
     </thead>
     <tbody>
         <tr *ngFor="let order of orders; let i = index;">
-            <th>{{i + 1}}</th>
-            <th>{{order.count}}</th>
-            <th class="text-end">{{order.cost.toFixed(2)}} TL </th>
+            <td>{{i + 1}}</td>
+            <td>{{order.count}}</td>
+            <td class="text-end">{{order.cost.toFixed(2)}} TL </td>
         </tr>
     </tbody>
 </table>
